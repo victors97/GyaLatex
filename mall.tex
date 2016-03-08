@@ -44,10 +44,6 @@
 
 \bibliography{sample}
 
-
-% \let\oldtabular\tabular 
-% \renewcommand{\tabular}{2pt}
-
 % Ger en titelsida för bilagor
 \renewcommand*{\appendixpagename}{\newpage Bilagor} 
 \renewcommand*{\appendixtocname}{Bilagor} 
@@ -189,8 +185,9 @@ NN kan alltså använda biasnodens konstanta utdata för att justera sitt läge 
 Det finns olika sätt att angripa problemet med att få NN att lära sig och bli bättre. Det finns ett antal olika inlärningsalgoritmer men den vanligaste är backpropagation med hjälp av gradientsökning.
 
 \paragraph{Backpropagation}\hspace{0pt}\\
-Backpropagation (BP) är en förkortning av \emph{``Backward propagation of errors''} \autocite{BP} som uppkom under 1970 talet men betydelsen av algoritmen var inte helt förstådd tills 1986 när David Rumelhart och Ronald Williams skrev en artikel angående dess effektivitet för många NN \autocite{NNDL}. BP användersig av det som man kallar för övervakad inlärning vilket innebär att man tillhandhåller NN ett facit för sin träningsdata så den kan jämföra med det resultat som den själv fått. BP är en vanlig inlärningsmetod för NN och används tillsammans med en optimiserings metod som t.ex. gradient sökning. Gradient sökning är en optimiseringsalgoritm som söker att hitta en minpunkt för en funktion genom att gå ett antal steg som är negativt proportionerligt mot derivatan av en funktion\autocite{GD}. I fallet med BP resulterar det i att man söker att minimera errorfunktionen mellan NN:s resultat och facit för inlärningsdata.
-BP algoritmen fungerar genom att man först ger NN indatan som den får bearbeta och producera ett resultat. Sedan beskriver man en errorfunktion baserad på det önskade resultatet och det faktiska resultatet t.ex. funktionen \\Mean Square Error ($MSE = \dfrac{(y-t)^2}{2}$). \\Därefter gås hela nätverket igenom baklänges och ändrar vikterna enligt principen för gradient descent genom att minska vikterna och biasnoderna med en inlärningsfaktor multiplicerat med derivatan för errorfunktionen vid den noden. Inlärningsfaktorn kan vi alltså använda för att beskriva hur stora ändringar vi ska göra varje gång vilket motsvarar hur snabbt nätverket lär sig. En mer fördjupad matematisk förklaring till hur och varför den funkar finns med som bilaga \ref{BPN}.
+Backpropagation (BP) är en förkortning av \emph{``Backward propagation of errors''} \autocite{BP} som uppkom under 1970 talet men betydelsen av algoritmen var inte helt förstådd tills 1986 när David Rumelhart och Ronald Williams skrev en artikel angående dess effektivitet för många NN \autocite{NNDL}. BP användersig av det som man kallar för övervakad inlärning vilket innebär att man tillhandhåller NN ett facit för sin träningsdata så den kan jämföra med det resultat som den själv fått. BP är en vanlig inlärningsmetod för NN och används tillsammans med en optimiserings metod som t.ex. Gradientsökning. Gradientsökning är en optimiseringsalgoritm som söker att hitta en minpunkt för en funktion genom att gå ett antal steg som är negativt proportionerligt mot derivatan av en funktion\autocite{GD}. I fallet med BP resulterar det i att man söker att minimera errorfunktionen mellan NN:s resultat och facit för inlärningsdata. 
+BP algoritmen fungerar genom att man först ger NN indatan som den får bearbeta och producera ett resultat. Sedan beskriver man en errorfunktion baserad på det önskade resultatet och det faktiska resultatet t.ex. funktionen \\Mean Square Error ($MSE = \dfrac{(y-t)^2}{2}$). \\Därefter gås hela nätverket igenom baklänges och ändrar vikterna enligt principen för gradientsökning genom att minska vikterna och biasnoderna med en inlärningsfaktor multiplicerat med derivatan för errorfunktionen vid den noden. Inlärningsfaktorn kan vi alltså använda för att beskriva hur stora ändringar vi ska göra varje gång vilket motsvarar hur snabbt nätverket lär sig. En mer fördjupad matematisk förklaring till hur och varför den funkar finns med som bilaga \ref{BPN}. Inlärningsfaktorn $\alpha$ är en konstant faktor sådan att gradient descent inte skall hoppa över minima på grund av för stora hopp, då gradientsökningens princip är för $\alpha$ går mot 0.
+
 
 \subsubsection{Nätverkets storlek}
 Nätverkets storlek kommer att vara beroende av flera olika faktorer. De faktorer som väger tyngst för storleken är komplexiteten hos BP samt antalet lager i nätverket.
@@ -274,7 +271,7 @@ Inlärningsdata är inspelad i ett tyst rum med minimalt med bakgrundsbrus på e
 Det finns ett antal sätt att representera ljud på en dator. Den vanligaste formen är att spara det som en mängd datapunkter som beskriver amplituden på ljudvågen.
 För att spela in ljud måste man interagera med en mikrofon. Vi bestämmde oss för att använda SFML. SFML är ett gränssnitt mellan program och datorns auditiva samt grafiska hårdvara. 
 
-Vi ville minimera antalet faktorer nätverket måste handskas med. Vi normaliserade ljudvågens amplitud så att alla toppar och dalar alltid låg mellan -1 och 1. Datan som spelas in delas upp i mindre segment, i varje av dessa segment väljs värde som ligger längst ifrån x-axeln och dividerar alla andra värden med dess absolutbelopp och detta ger en kurva som förhoppningsvis ger högre vikt på frekvensen än det annars skulle gjort. Detta eftersom att när man spelar in tonerna är det svårt att spela in alla med en konstant ljudstyrka. t.ex. avtar ljudstyrkan allt eftersom att tiden går. Eftersom att NN tar emot flyttal eller decimaltal innebär det att det skulle kunna resultera i att NN returnerar olika toner om man spelar samma ton med olika ljudstyrka eftersom att högre ljudstyrka ger högre amplitud vilket ger ett högre indatatal åt det NN.
+Vi ville minimera antalet faktorer nätverket måste handskas med. Vi normaliserade ljudvågens amplitud så att alla toppar och dalar alltid låg mellan -1 och 1. Datan som spelas in delas upp i mindre segment, i varje av dessa segment väljs värdet som ligger längst ifrån x-axeln och dividerar alla andra värden med dess absolutbelopp och detta ger en kurva som förhoppningsvis ger högre vikt på frekvensen än det annars skulle gjort. Detta eftersom att när man spelar in tonerna är det svårt att spela in alla med en konstant ljudstyrka. t.ex. avtar ljudstyrkan allt eftersom att tiden går. Eftersom att NN tar emot flyttal eller decimaltal innebär det att det skulle kunna resultera i att NN returnerar olika toner om man spelar samma ton med olika ljudstyrka eftersom att högre ljudstyrka ger högre amplitud vilket ger ett högre indatatal åt det NN.
 % Slut
 
 
@@ -307,7 +304,7 @@ Syftet med vår undersökning är att lära oss mer om hur NN fungerar och hur m
 Från början var arbetet tänkt att omfatta röstigenkänning men vi gjorde därefter om det till ljudigenkänning. Då det kändes för brett och ospecificerat gjorde vi det till ton-igenkänning. Inom ton-igenkänning vill vi inkludera tonerna för främst piano och hur nätverkets påverkas av att pianots ljudvåg har andra vågor som är superpositionerade på tonen. \\
 På grund av tidsbrist har vi behövt strukturera om och testa ett nätverk som bara undersöker om den kan lära sig att se skillnad på A4 och C4 när det består av 3 lager och 4 lager och ett nätverk som undersöker om den kan särskilja 12 toner (C4-B4).
 
-\section{METOD}
+\section{METOD}	
 
 \subsection{Förklaring av Nätverket}
 Nätverket består av en lagerstruktur. Lagren samlas i något som kallas ett lagerkluster, lagren innehåller noder. I varje lager finns det en så kallad bias-nod som alltid ger utdata 1. Varje nod (förutom bias-noden) innehåller en kant till alla noder i det tidigare lagret (inklusive bias-noden). Det första lagret representeras endast av en lista av utdata som går med viktning till det första dolda lagret.
@@ -807,9 +804,9 @@ Rätt & 12       & 15       & 13       & 15       & 4        & 10        	 &  15
 
 \subsection{Tolkning av resultat}
 
-% Resultatdata ska analyseras och därefter tolkas. Analysen ska förenkla. tydliggöra och redogöra för de samband. tendenser och mönster som kan utläsas av de data som finns i resultatkapitlet. Diskutera t ex likheter och avvikelser med referens till egna och andras resultat samt till de teorier som behandlats under 1.2 Teori. Varför blev resultaten som de blev? Vilka variationer eller likheter uppvisas i resultatkapitlet. vilka nya (och oväntade) mönster kan skönjas? 
+% Resultatdata ska analyseras och därefter tolkas. Analysen ska förenkla, tydliggöra och redogöra för de samband, tendenser och mönster som kan utläsas av de data som finns i resultatkapitlet. Diskutera t ex likheter och avvikelser med referens till egna och andras resultat samt till de teorier som behandlats under 1.2 Teori. Varför blev resultaten som de blev? Vilka variationer eller likheter uppvisas i resultatkapitlet, vilka nya (och oväntade) mönster kan skönjas? 
 
-% Vilka slutsatser kan dras av resultaten. med dess begränsningar. och med hänvisning till tidigare redovisad forskning eller faktalitteratur? Under Slutsatser besvaras samtliga frågeställningar. klart och tydligt, och de ska vara enkla att finna. Om du skrivit en hypotes ska du koppla tillbaka till den i detta avsnitt. Slutsatsen ska vara kärnfull och kortfattad.
+% Vilka slutsatser kan dras av resultaten, med dess begränsningar, och med hänvisning till tidigare redovisad forskning eller faktalitteratur? Under Slutsatser besvaras samtliga frågeställningar, klart och tydligt, och de ska vara enkla att finna. Om du skrivit en hypotes ska du koppla tillbaka till den i detta avsnitt. Slutsatsen ska vara kärnfull och kortfattad.
 \subsubsection{Nätverk 1-3}
 Nätverk 1-3 gav mycket dåliga resultat. De var slumpartade och det var omöjligt att dra några andra slutsatser än att ingen av nätverken hade möjlighet att särskilja mellan de olika 87 och 2 tonerna resp. Eftersom att det inte fungerade oberoende av antalet utdatanoder verkar det sannolikt att man behöver ett mycket större antal dolda noder för att det ska vara möjligt att känna igen toner. Då det verkade mer gynnsamt att pröva flera lager gjorde vi det och anpassade koden eftersom att det var osäkert om det överhuvudtaget gick och hur många noder man skulle behöva om man endast hade ett dolt lager.
 \subsubsection{Nätverk 4}
