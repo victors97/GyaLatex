@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.14)  8 MAR 2016 14:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.11.14)  8 MAR 2016 14:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1682,25 +1682,25 @@ File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
 ))
 \openout1 = `mall.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
+LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 60.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    ... okay on input line 60.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1817,15 +1817,15 @@ Package biblatex Warning: Data encoding is 'utf8'.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'mall.bbl' found.
 (./mall.bbl)
-Package biblatex Info: Reference section=0 on input line 64.
-Package biblatex Info: Reference segment=0 on input line 64.
+Package biblatex Info: Reference section=0 on input line 60.
+Package biblatex Info: Reference segment=0 on input line 60.
 \AtBeginShipoutBox=\box98
 \c__siunitx_mathsf_int=\count409
-LaTeX Font Info:    Try loading font information for U+msa on input line 64.
+LaTeX Font Info:    Try loading font information for U+msa on input line 60.
  (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 64.
+LaTeX Font Info:    Try loading font information for U+msb on input line 60.
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1840,29 +1840,29 @@ mall.toc)
 
 
 [1] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
 <Sigmoid.png, id=38, 295.5843pt x 208.8603pt>
 File: Sigmoid.png Graphic file (type png)
  <use Sigmoid.png>
-Package pdftex.def Info: Sigmoid.png used on input line 174.
+Package pdftex.def Info: Sigmoid.png used on input line 170.
 (pdftex.def)             Requested size: 295.58357pt x 208.85979pt.
 
 <Sigmoidw.png, id=40, 295.5843pt x 208.8603pt>
 File: Sigmoidw.png Graphic file (type png)
  <use Sigmoidw.png>
-Package pdftex.def Info: Sigmoidw.png used on input line 181.
+Package pdftex.def Info: Sigmoidw.png used on input line 177.
 (pdftex.def)             Requested size: 226.48395pt x 160.03575pt.
 
 <Sigmoidb.png, id=41, 295.5843pt x 208.8603pt>
 File: Sigmoidb.png Graphic file (type png)
  <use Sigmoidb.png>
-Package pdftex.def Info: Sigmoidb.png used on input line 182.
+Package pdftex.def Info: Sigmoidb.png used on input line 178.
 (pdftex.def)             Requested size: 226.48395pt x 160.03575pt.
 
-Overfull \hbox (15.82166pt too wide) in paragraph at lines 181--183
+Overfull \hbox (15.82166pt too wide) in paragraph at lines 177--179
 [][] [] 
  []
 
@@ -1891,350 +1891,350 @@ Missing character: There is no t in font nullfont!
 <A4gen.png, id=63, 527.0892pt x 382.5492pt>
 File: A4gen.png Graphic file (type png)
  <use A4gen.png>
-Package pdftex.def Info: A4gen.png used on input line 269.
+Package pdftex.def Info: A4gen.png used on input line 266.
 (pdftex.def)             Requested size: 226.48395pt x 164.37619pt.
 
 <A4p.png, id=64, 525.162pt x 384.4764pt>
 File: A4p.png Graphic file (type png)
  <use A4p.png>
-Package pdftex.def Info: A4p.png used on input line 270.
+Package pdftex.def Info: A4p.png used on input line 267.
 (pdftex.def)             Requested size: 226.48395pt x 165.80855pt.
 
-Overfull \hbox (15.82166pt too wide) in paragraph at lines 269--271
+Overfull \hbox (15.82166pt too wide) in paragraph at lines 266--268
 [][] [] 
  []
 
 [7 <./A4gen.png> <./A4p.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 325--326
+Underfull \hbox (badness 10000) in paragraph at lines 322--323
 
  []
 
-[8] [9] <2outTR.png, id=76, 500.1084pt x 323.2878pt>
+[8] [9] <2outTR.png, id=76, 500.1084pt x 344.9688pt>
 File: 2outTR.png Graphic file (type png)
  <use 2outTR.png>
-Package pdftex.def Info: 2outTR.png used on input line 374.
-(pdftex.def)             Requested size: 452.9679pt x 292.82098pt.
+Package pdftex.def Info: 2outTR.png used on input line 371.
+(pdftex.def)             Requested size: 452.9679pt x 312.45874pt.
  [10 <./2outTR.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 386--388
+Underfull \hbox (badness 10000) in paragraph at lines 383--385
 
  []
 
 [11] [12] [13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 814--816
+Underfull \hbox (badness 10000) in paragraph at lines 811--813
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 836--838
+Underfull \hbox (badness 10000) in paragraph at lines 833--835
 
  []
 
 [15
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 870--870
+Underfull \hbox (badness 10000) in paragraph at lines 867--867
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 872--873
+Underfull \hbox (badness 10000) in paragraph at lines 869--870
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 881--884
+Underfull \hbox (badness 10000) in paragraph at lines 878--881
 
  []
 
 [16] [17] <niklas.pdf, id=104, 597.50829pt x 845.0471pt>
 File: niklas.pdf Graphic file (type pdf)
  <use niklas.pdf>
-Package pdftex.def Info: niklas.pdf used on input line 918.
+Package pdftex.def Info: niklas.pdf used on input line 915.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: niklas.pdf Graphic file (type pdf)
 
 <use niklas.pdf>
-Package pdftex.def Info: niklas.pdf used on input line 918.
+Package pdftex.def Info: niklas.pdf used on input line 915.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
  [18] <niklas.pdf, id=111, page=1, 597.50829pt x 845.0471pt>
 File: niklas.pdf Graphic file (type pdf)
 
 <use niklas.pdf, page 1>
-Package pdftex.def Info: niklas.pdf, page1 used on input line 918.
+Package pdftex.def Info: niklas.pdf, page1 used on input line 915.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: niklas.pdf Graphic file (type pdf)
  <use niklas.pdf, page 1>
-Package pdftex.def Info: niklas.pdf, page1 used on input line 918.
+Package pdftex.def Info: niklas.pdf, page1 used on input line 915.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: niklas.pdf Graphic file (type pdf)
  <use niklas.pdf, page 1>
-Package pdftex.def Info: niklas.pdf, page1 used on input line 918.
+Package pdftex.def Info: niklas.pdf, page1 used on input line 915.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: niklas.pdf Graphic file (type pdf)
 
 <use niklas.pdf, page 1>
-Package pdftex.def Info: niklas.pdf, page1 used on input line 918.
+Package pdftex.def Info: niklas.pdf, page1 used on input line 915.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: niklas.pdf Graphic file (type pdf)
  <use niklas.pdf, page 1>
-Package pdftex.def Info: niklas.pdf, page1 used on input line 918.
+Package pdftex.def Info: niklas.pdf, page1 used on input line 915.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
  [19 <./niklas.pdf>]
 File: niklas.pdf Graphic file (type pdf)
 
 <use niklas.pdf>
-Package pdftex.def Info: niklas.pdf used on input line 919.
+Package pdftex.def Info: niklas.pdf used on input line 916.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: niklas.pdf Graphic file (type pdf)
  <use niklas.pdf>
-Package pdftex.def Info: niklas.pdf used on input line 919.
+Package pdftex.def Info: niklas.pdf used on input line 916.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 <niklas.pdf, id=158, page=2, 597.50829pt x 845.0471pt>
 File: niklas.pdf Graphic file (type pdf)
 
 <use niklas.pdf, page 2>
-Package pdftex.def Info: niklas.pdf, page2 used on input line 919.
+Package pdftex.def Info: niklas.pdf, page2 used on input line 916.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: niklas.pdf Graphic file (type pdf)
  <use niklas.pdf, page 2>
-Package pdftex.def Info: niklas.pdf, page2 used on input line 919.
+Package pdftex.def Info: niklas.pdf, page2 used on input line 916.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: niklas.pdf Graphic file (type pdf)
  <use niklas.pdf, page 2>
-Package pdftex.def Info: niklas.pdf, page2 used on input line 919.
+Package pdftex.def Info: niklas.pdf, page2 used on input line 916.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: niklas.pdf Graphic file (type pdf)
 
 <use niklas.pdf, page 2>
-Package pdftex.def Info: niklas.pdf, page2 used on input line 919.
+Package pdftex.def Info: niklas.pdf, page2 used on input line 916.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: niklas.pdf Graphic file (type pdf)
  <use niklas.pdf, page 2>
-Package pdftex.def Info: niklas.pdf, page2 used on input line 919.
+Package pdftex.def Info: niklas.pdf, page2 used on input line 916.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
  [20 <./niklas.pdf>]
 <Fprop.pdf, id=162, 597.50829pt x 845.0471pt>
 File: Fprop.pdf Graphic file (type pdf)
  <use Fprop.pdf>
-Package pdftex.def Info: Fprop.pdf used on input line 920.
+Package pdftex.def Info: Fprop.pdf used on input line 917.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Fprop.pdf Graphic file (type pdf)
  <use Fprop.pdf>
-Package pdftex.def Info: Fprop.pdf used on input line 920.
+Package pdftex.def Info: Fprop.pdf used on input line 917.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 <Fprop.pdf, id=165, page=1, 597.50829pt x 845.0471pt>
 File: Fprop.pdf Graphic file (type pdf)
  <use Fprop.pdf, page 1>
-Package pdftex.def Info: Fprop.pdf, page1 used on input line 920.
+Package pdftex.def Info: Fprop.pdf, page1 used on input line 917.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Fprop.pdf Graphic file (type pdf)
 
 <use Fprop.pdf, page 1>
-Package pdftex.def Info: Fprop.pdf, page1 used on input line 920.
+Package pdftex.def Info: Fprop.pdf, page1 used on input line 917.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Fprop.pdf Graphic file (type pdf)
  <use Fprop.pdf, page 1>
-Package pdftex.def Info: Fprop.pdf, page1 used on input line 920.
+Package pdftex.def Info: Fprop.pdf, page1 used on input line 917.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Fprop.pdf Graphic file (type pdf)
  <use Fprop.pdf, page 1>
-Package pdftex.def Info: Fprop.pdf, page1 used on input line 920.
+Package pdftex.def Info: Fprop.pdf, page1 used on input line 917.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Fprop.pdf Graphic file (type pdf)
 
 <use Fprop.pdf, page 1>
-Package pdftex.def Info: Fprop.pdf, page1 used on input line 920.
+Package pdftex.def Info: Fprop.pdf, page1 used on input line 917.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
  [21 <./Fprop.pdf>]
 <BPcomplexitet.pdf, id=203, 597.50829pt x 845.0471pt>
 File: BPcomplexitet.pdf Graphic file (type pdf)
  <use BPcomplexitet.pdf>
-Package pdftex.def Info: BPcomplexitet.pdf used on input line 921.
+Package pdftex.def Info: BPcomplexitet.pdf used on input line 918.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: BPcomplexitet.pdf Graphic file (type pdf)
 
 <use BPcomplexitet.pdf>
-Package pdftex.def Info: BPcomplexitet.pdf used on input line 921.
+Package pdftex.def Info: BPcomplexitet.pdf used on input line 918.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 <BPcomplexitet.pdf, id=206, page=3, 597.50829pt x 845.0471pt>
 File: BPcomplexitet.pdf Graphic file (type pdf)
 
 <use BPcomplexitet.pdf, page 3>
-Package pdftex.def Info: BPcomplexitet.pdf, page3 used on input line 921.
+Package pdftex.def Info: BPcomplexitet.pdf, page3 used on input line 918.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: BPcomplexitet.pdf Graphic file (type pdf)
  <use BPcomplexitet.pdf, page 3>
-Package pdftex.def Info: BPcomplexitet.pdf, page3 used on input line 921.
+Package pdftex.def Info: BPcomplexitet.pdf, page3 used on input line 918.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: BPcomplexitet.pdf Graphic file (type pdf)
 
 <use BPcomplexitet.pdf, page 3>
-Package pdftex.def Info: BPcomplexitet.pdf, page3 used on input line 921.
+Package pdftex.def Info: BPcomplexitet.pdf, page3 used on input line 918.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: BPcomplexitet.pdf Graphic file (type pdf)
  <use BPcomplexitet.pdf, page 3>
-Package pdftex.def Info: BPcomplexitet.pdf, page3 used on input line 921.
+Package pdftex.def Info: BPcomplexitet.pdf, page3 used on input line 918.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: BPcomplexitet.pdf Graphic file (type pdf)
 
 <use BPcomplexitet.pdf, page 3>
-Package pdftex.def Info: BPcomplexitet.pdf, page3 used on input line 921.
+Package pdftex.def Info: BPcomplexitet.pdf, page3 used on input line 918.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
  [22 <./BPcomplexitet.pdf>]
 <Pbackpropagation.pdf, id=242, 597.50829pt x 845.0471pt>
 File: Pbackpropagation.pdf Graphic file (type pdf)
 
 <use Pbackpropagation.pdf>
-Package pdftex.def Info: Pbackpropagation.pdf used on input line 922.
+Package pdftex.def Info: Pbackpropagation.pdf used on input line 919.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Pbackpropagation.pdf Graphic file (type pdf)
  <use Pbackpropagation.pdf>
-Package pdftex.def Info: Pbackpropagation.pdf used on input line 922.
+Package pdftex.def Info: Pbackpropagation.pdf used on input line 919.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 <Pbackpropagation.pdf, id=245, page=1, 597.50829pt x 845.0471pt>
 File: Pbackpropagation.pdf Graphic file (type pdf)
 
 <use Pbackpropagation.pdf, page 1>
-Package pdftex.def Info: Pbackpropagation.pdf, page1 used on input line 922.
+Package pdftex.def Info: Pbackpropagation.pdf, page1 used on input line 919.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Pbackpropagation.pdf Graphic file (type pdf)
  <use Pbackpropagation.pdf, page 1>
-Package pdftex.def Info: Pbackpropagation.pdf, page1 used on input line 922.
+Package pdftex.def Info: Pbackpropagation.pdf, page1 used on input line 919.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Pbackpropagation.pdf Graphic file (type pdf)
 
 <use Pbackpropagation.pdf, page 1>
-Package pdftex.def Info: Pbackpropagation.pdf, page1 used on input line 922.
+Package pdftex.def Info: Pbackpropagation.pdf, page1 used on input line 919.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Pbackpropagation.pdf Graphic file (type pdf)
  <use Pbackpropagation.pdf, page 1>
-Package pdftex.def Info: Pbackpropagation.pdf, page1 used on input line 922.
+Package pdftex.def Info: Pbackpropagation.pdf, page1 used on input line 919.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Pbackpropagation.pdf Graphic file (type pdf)
 
 <use Pbackpropagation.pdf, page 1>
-Package pdftex.def Info: Pbackpropagation.pdf, page1 used on input line 922.
+Package pdftex.def Info: Pbackpropagation.pdf, page1 used on input line 919.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
  [23 <./Pbackpropagation.pdf>]
 File: BPcomplexitet.pdf Graphic file (type pdf)
 
 <use BPcomplexitet.pdf>
-Package pdftex.def Info: BPcomplexitet.pdf used on input line 923.
+Package pdftex.def Info: BPcomplexitet.pdf used on input line 920.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: BPcomplexitet.pdf Graphic file (type pdf)
  <use BPcomplexitet.pdf>
-Package pdftex.def Info: BPcomplexitet.pdf used on input line 923.
+Package pdftex.def Info: BPcomplexitet.pdf used on input line 920.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 <BPcomplexitet.pdf, id=274, page=2, 597.50829pt x 845.0471pt>
 File: BPcomplexitet.pdf Graphic file (type pdf)
 
 <use BPcomplexitet.pdf, page 2>
-Package pdftex.def Info: BPcomplexitet.pdf, page2 used on input line 923.
+Package pdftex.def Info: BPcomplexitet.pdf, page2 used on input line 920.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: BPcomplexitet.pdf Graphic file (type pdf)
  <use BPcomplexitet.pdf, page 2>
-Package pdftex.def Info: BPcomplexitet.pdf, page2 used on input line 923.
+Package pdftex.def Info: BPcomplexitet.pdf, page2 used on input line 920.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: BPcomplexitet.pdf Graphic file (type pdf)
 
 <use BPcomplexitet.pdf, page 2>
-Package pdftex.def Info: BPcomplexitet.pdf, page2 used on input line 923.
+Package pdftex.def Info: BPcomplexitet.pdf, page2 used on input line 920.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: BPcomplexitet.pdf Graphic file (type pdf)
  <use BPcomplexitet.pdf, page 2>
-Package pdftex.def Info: BPcomplexitet.pdf, page2 used on input line 923.
+Package pdftex.def Info: BPcomplexitet.pdf, page2 used on input line 920.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: BPcomplexitet.pdf Graphic file (type pdf)
 
 <use BPcomplexitet.pdf, page 2>
-Package pdftex.def Info: BPcomplexitet.pdf, page2 used on input line 923.
+Package pdftex.def Info: BPcomplexitet.pdf, page2 used on input line 920.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
  [24 <./BPcomplexitet.pdf>]
 <FAQ.pdf, id=278, 597.50829pt x 845.0471pt>
 File: FAQ.pdf Graphic file (type pdf)
  <use FAQ.pdf>
-Package pdftex.def Info: FAQ.pdf used on input line 924.
+Package pdftex.def Info: FAQ.pdf used on input line 921.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: FAQ.pdf Graphic file (type pdf)
  <use FAQ.pdf>
-Package pdftex.def Info: FAQ.pdf used on input line 924.
+Package pdftex.def Info: FAQ.pdf used on input line 921.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 <FAQ.pdf, id=281, page=1, 597.50829pt x 845.0471pt>
 File: FAQ.pdf Graphic file (type pdf)
  <use FAQ.pdf, page 1>
-Package pdftex.def Info: FAQ.pdf, page1 used on input line 924.
+Package pdftex.def Info: FAQ.pdf, page1 used on input line 921.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: FAQ.pdf Graphic file (type pdf)
 
 <use FAQ.pdf, page 1>
-Package pdftex.def Info: FAQ.pdf, page1 used on input line 924.
+Package pdftex.def Info: FAQ.pdf, page1 used on input line 921.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: FAQ.pdf Graphic file (type pdf)
  <use FAQ.pdf, page 1>
-Package pdftex.def Info: FAQ.pdf, page1 used on input line 924.
+Package pdftex.def Info: FAQ.pdf, page1 used on input line 921.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: FAQ.pdf Graphic file (type pdf)
  <use FAQ.pdf, page 1>
-Package pdftex.def Info: FAQ.pdf, page1 used on input line 924.
+Package pdftex.def Info: FAQ.pdf, page1 used on input line 921.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: FAQ.pdf Graphic file (type pdf)
 
 <use FAQ.pdf, page 1>
-Package pdftex.def Info: FAQ.pdf, page1 used on input line 924.
+Package pdftex.def Info: FAQ.pdf, page1 used on input line 921.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [25 <./FAQ.pdf>]
 File: FAQ.pdf Graphic file (type pdf)
  <use FAQ.pdf>
-Package pdftex.def Info: FAQ.pdf used on input line 925.
+Package pdftex.def Info: FAQ.pdf used on input line 922.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: FAQ.pdf Graphic file (type pdf)
  <use FAQ.pdf>
-Package pdftex.def Info: FAQ.pdf used on input line 925.
+Package pdftex.def Info: FAQ.pdf used on input line 922.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 
 <FAQ.pdf, id=294, page=2, 597.50829pt x 845.0471pt>
 File: FAQ.pdf Graphic file (type pdf)
  <use FAQ.pdf, page 2>
-Package pdftex.def Info: FAQ.pdf, page2 used on input line 925.
+Package pdftex.def Info: FAQ.pdf, page2 used on input line 922.
 (pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: FAQ.pdf Graphic file (type pdf)
 
 <use FAQ.pdf, page 2>
-Package pdftex.def Info: FAQ.pdf, page2 used on input line 925.
+Package pdftex.def Info: FAQ.pdf, page2 used on input line 922.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: FAQ.pdf Graphic file (type pdf)
  <use FAQ.pdf, page 2>
-Package pdftex.def Info: FAQ.pdf, page2 used on input line 925.
+Package pdftex.def Info: FAQ.pdf, page2 used on input line 922.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: FAQ.pdf Graphic file (type pdf)
  <use FAQ.pdf, page 2>
-Package pdftex.def Info: FAQ.pdf, page2 used on input line 925.
+Package pdftex.def Info: FAQ.pdf, page2 used on input line 922.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: FAQ.pdf Graphic file (type pdf)
 
 <use FAQ.pdf, page 2>
-Package pdftex.def Info: FAQ.pdf, page2 used on input line 925.
+Package pdftex.def Info: FAQ.pdf, page2 used on input line 922.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [26 <./FAQ.pdf>]
 <FAQ.pdf, id=310, page=3, 597.50829pt x 845.0471pt>
 File: FAQ.pdf Graphic file (type pdf)
  <use FAQ.pdf, page 3>
-Package pdftex.def Info: FAQ.pdf, page3 used on input line 925.
+Package pdftex.def Info: FAQ.pdf, page3 used on input line 922.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: FAQ.pdf Graphic file (type pdf)
 
 <use FAQ.pdf, page 3>
-Package pdftex.def Info: FAQ.pdf, page3 used on input line 925.
+Package pdftex.def Info: FAQ.pdf, page3 used on input line 922.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
 File: FAQ.pdf Graphic file (type pdf)
  <use FAQ.pdf, page 3>
-Package pdftex.def Info: FAQ.pdf, page3 used on input line 925.
+Package pdftex.def Info: FAQ.pdf, page3 used on input line 922.
 (pdftex.def)             Requested size: 567.62965pt x 802.7902pt.
  [27 <./FAQ.pdf>] (./mall.aux)
 Package logreq Info: Writing requests to 'mall.run.xml'.
@@ -2276,7 +2276,7 @@ nts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2014/texmf-dist/font
 s/type1/public/cm-super/sfti0800.pfb></usr/local/texlive/2014/texmf-dist/fonts/
 type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2014/texmf-dist/fonts/ty
 pe1/public/cm-super/sfti1200.pfb>
-Output written on mall.pdf (29 pages, 974650 bytes).
+Output written on mall.pdf (29 pages, 976545 bytes).
 PDF statistics:
  386 PDF objects out of 1000 (max. 8388607)
  284 compressed objects within 3 object streams

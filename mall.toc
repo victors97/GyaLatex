@@ -18,7 +18,7 @@
 \contentsline {paragraph}{Inl\IeC {\"a}rning}{5}
 \contentsline {paragraph}{Antal noder}{6}
 \contentsline {subsubsection}{\numberline {2.2.4}Data}{6}
-\contentsline {subsection}{\numberline {2.3}Syfte och fr\IeC {\r a}gest\IeC {\"a}llningar}{7}
+\contentsline {subsection}{\numberline {2.3}Syfte och fr\IeC {\r a}gest\IeC {\"a}llningar}{8}
 \contentsline {subsection}{\numberline {2.4}Fr\IeC {\r a}gest\IeC {\"a}llningar}{8}
 \contentsline {subsection}{\numberline {2.5}Avgr\IeC {\"a}nsningar}{8}
 \contentsline {section}{\numberline {3}METOD}{8}
