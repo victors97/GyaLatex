@@ -253,6 +253,8 @@ När det kommer till antalet noder i varje lager finns det några som har förs�
 \end{figure}
 Eftersom att det är så svårt att välja antalet noder kan man dock använda sig av vissa tumregler för att påbörja testerna och sedan optimera vid behov. T.ex. kan man använda en tumregel som säger att antalet noder i det dolda lagret ska vara medelvärdet på indatalagret och utdatalagret \autocite{StackExchange} och anpassa därefter när det behövs enligt \ref{FAQ}.
 
+Både AND och XOR har väl definierad indata. Vårt ljudproblem blir mer abstrakt och mindre väldefinierat indata, men precis som i fallet med de logiska kretsarna så har vi utdata som ska ges av heltal 1 eller 0. För att jämföra logiska kretsar och vårt problem så använder de logska kretsarna väldigt klara diskreta indata i de olika fallen: $0,0$, $1,0$, $0,1$, $1,1$. Vårt fall har en betydligt mer mjuk, kontinuerlig kurva. Dessutom så ska nätverket inte bara känna igen någon form av lutning (som AND och XOR kan föreklas till), vårt ska känna av en periodtid, eller frekvens. 
+
 \subsubsection{Data}
 För att vi ska kunna träna nätverket måste vi ge den indata och korrekt utdata som kan användas i errorfunktionen. Vi generar en mängd med testdata av\emph{``rena toner''} som genereras enligt $y=\sin(f_{not}*2\pi t)$.\autocite{Wave}\\
 $f_{not}$ är frekvensen för respektive not av de 87 tonerna A0 t.om. B7 och $t$ är tiden i sekunder. C8 som är den högsta frekvensen svänger såpass fort så att det blir svårt att skapa bra genererad data. Dessutom dör tonen ut fort på pianot vilket gör att det finns stora risker att det blir oanvändbar mätdata.
