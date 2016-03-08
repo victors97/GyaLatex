@@ -19,7 +19,7 @@
 \contentsline {paragraph}{Antal noder}{6}
 \contentsline {subsubsection}{\numberline {2.2.4}Data}{6}
 \contentsline {subsection}{\numberline {2.3}Syfte och fr\IeC {\r a}gest\IeC {\"a}llningar}{7}
-\contentsline {subsection}{\numberline {2.4}Fr\IeC {\r a}gest\IeC {\"a}llningar}{7}
+\contentsline {subsection}{\numberline {2.4}Fr\IeC {\r a}gest\IeC {\"a}llningar}{8}
 \contentsline {subsection}{\numberline {2.5}Avgr\IeC {\"a}nsningar}{8}
 \contentsline {section}{\numberline {3}METOD}{8}
 \contentsline {subsection}{\numberline {3.1}F\IeC {\"o}rklaring av N\IeC {\"a}tverket}{8}
@@ -47,9 +47,9 @@
 \contentsline {subsection}{\numberline {5.5}Reflektion \IeC {\"o}ver arbetet}{17}
 \contentsline {subsection}{\numberline {5.6}Framtid}{17}
 \contentsline {section}{Bilagor}{18}
-\contentsline {section}{\numberline {A}Backpropagation h\IeC {\"a}rledning}{18}
-\contentsline {section}{\numberline {B}Pseudokod f\IeC {\"o}r k\IeC {\"o}rning}{20}
-\contentsline {section}{\numberline {C}Komplexitet f\IeC {\"o}r k\IeC {\"o}rning}{21}
-\contentsline {section}{\numberline {D}Pseudokod BP}{22}
-\contentsline {section}{\numberline {E}Komplexitet f\IeC {\"o}r BP}{23}
-\contentsline {section}{\numberline {F}Neural Nets FAQ part 3, utdrag}{24}
+\contentsline {section}{\numberline {A}BP h\IeC {\"a}rledning}{19}
+\contentsline {section}{\numberline {B}Pseudokod f\IeC {\"o}r fram\IeC {\r a}tpropagering}{21}
+\contentsline {section}{\numberline {C}Komplexitet f\IeC {\"o}r fram\IeC {\r a}tpropagering}{22}
+\contentsline {section}{\numberline {D}Pseudokod BP}{23}
+\contentsline {section}{\numberline {E}Komplexitet f\IeC {\"o}r BP}{24}
+\contentsline {section}{\numberline {F}Neural Nets FAQ part 3, utdrag}{25}
