@@ -1,0 +1,254 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{SLA}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Bengio}{B.}%
+     {Yoshua}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {LeCun}{L.}%
+     {Yann}{Y.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BYLY1}
+  \strng{fullhash}{BYLY1}
+  \field{sortinit}{B}
+  \field{pages}{3,25}
+  \field{title}{Scaling Learning Algorithms towards AI}
+  \field{journaltitle}{Large-Scale Kernel Machines}
+  \field{month}{08}
+  \field{year}{2007}
+\endentry
+
+\entry{NNDL}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Nielsen}{N.}%
+     {Michael~A.}{M.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Determination Press}%
+  }
+  \strng{namehash}{NMA1}
+  \strng{fullhash}{NMA1}
+  \field{sortinit}{N}
+  \field{title}{Neural Networks and Deep Learning}
+  \field{year}{2015}
+\endentry
+
+\entry{Wave}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Rogness}{R.}%
+     {Jonathan}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RJ1}
+  \strng{fullhash}{RJ1}
+  \field{sortinit}{R}
+  \field{note}{Email: rogness@math.umn.edu}
+  \field{title}{Trigonometry in Nature}
+  \verb{url}
+  \verb http://stats.stackexchange.com/questions/181/how-to-choose-the-number-o
+  \verb f-hidden-layers-and-nodes-in-a-feedforward-neural-netw
+  \endverb
+\endentry
+
+\entry{Threshold}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Rojas}{R.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RR1}
+  \strng{fullhash}{RR1}
+  \field{sortinit}{R}
+  \field{title}{Threshold Logic}
+  \verb{url}
+  \verb http://cgm.cs.mcgill.ca/~godfried/teaching/dm-reading-assignments/Thres
+  \verb hold-Logic.pdf
+  \endverb
+  \field{month}{10}
+  \field{year}{1996}
+\endentry
+
+\entry{TNC}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Shiffman}{S.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SD1}
+  \strng{fullhash}{SD1}
+  \field{sortinit}{S}
+  \field{chapter}{10}
+  \field{title}{The nature of code}
+  \field{year}{2012}
+\endentry
+
+\entry{NNhistory}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wikipedia}{W.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{W1}
+  \strng{fullhash}{W1}
+  \field{sortinit}{W}
+  \field{title}{Artificial neural network}
+  \verb{url}
+  \verb https://en.wikipedia.org/wiki/Artificial_neural_network
+  \endverb
+  \field{month}{10}
+  \field{year}{2015}
+\endentry
+
+\entry{BP}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wikipedia}{W.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{W1}
+  \strng{fullhash}{W1}
+  \field{sortinit}{W}
+  \field{title}{Backpropagation}
+  \verb{url}
+  \verb https://en.wikipedia.org/wiki/Backpropagation
+  \endverb
+  \field{month}{10}
+  \field{year}{2015}
+\endentry
+
+\entry{DL}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wikipedia}{W.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{W1}
+  \strng{fullhash}{W1}
+  \field{sortinit}{W}
+  \field{title}{Deep Learning}
+  \verb{url}
+  \verb https://en.wikipedia.org/wiki/Deep_learning
+  \endverb
+  \field{month}{01}
+  \field{year}{2016}
+\endentry
+
+\entry{GD}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wikipedia}{W.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{W1}
+  \strng{fullhash}{W1}
+  \field{sortinit}{W}
+  \field{title}{Gradient descent}
+  \verb{url}
+  \verb https://en.wikipedia.org/wiki/Gradient_descent
+  \endverb
+  \field{month}{10}
+  \field{year}{2015}
+\endentry
+
+\entry{NNperceptron}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wikipedia}{W.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{W1}
+  \strng{fullhash}{W1}
+  \field{sortinit}{W}
+  \field{title}{Perceptron}
+  \verb{url}
+  \verb https://en.wikipedia.org/wiki/Perceptron
+  \endverb
+  \field{month}{10}
+  \field{year}{2015}
+\endentry
+
+\entry{BEAT}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Wikipedia}{W.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{W1}
+  \strng{fullhash}{W1}
+  \field{sortinit}{W}
+  \field{note}{[Online; hämtad 29-januari-2016]}
+  \field{title}{Svävning}
+  \verb{url}
+  \verb //sv.wikipedia.org/w/index.php?title=Sv%C3%A4vning&oldid=32054228
+  \endverb
+  \field{year}{2015}
+\endentry
+
+\entry{StackExchange}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Y'barbo}{Y.}%
+     {Douglas}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{YD1}
+  \strng{fullhash}{YD1}
+  \field{sortinit}{Y}
+  \field{note}{Not: baserad på Bilaga C}
+  \field{title}{Stack Exchange Forum, How to choose the number of hidden layers
+  and nodes in a feedforward neural network.}
+  \verb{url}
+  \verb http://stats.stackexchange.com/questions/181/how-to-choose-the-number-o
+  \verb f-hidden-layers-and-nodes-in-a-feedforward-neural-netw
+  \endverb
+  \field{month}{08}
+  \field{year}{2010}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
