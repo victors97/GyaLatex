@@ -55,7 +55,7 @@
 % Gör titel
 \usepackage{titlesec}
 % \titleformat{\section}{\normalfont\Large\bfseries}{\S \thesection}{1em}{}
-\title{\Huge\bf{The application of Neural Networks for note recognition}\\}
+\title{\Huge\bf{Användningen av neurala nätverk för tonigenkänning}\\}
 \author{\emph{Niklas Gustin, Victor Sellstedt, Björn Thorén, Kristoffer Åhgren}\\Handledare: \emph{Lars Gråsjö}}
 \date{2016-01-29}
 \pagenumbering{gobble}
@@ -383,13 +383,15 @@ Visar utdata från förväntad nod för \\
 
 % Riktiga toner
 \break
-\subsubsection{Nätverk 1}
+\subsubsection{Nätverk 4}
+
+Följande tabell redovisar datan från det otränade nätverket och efter att nätverket har tränats en gång med $\alpha=0.2$. Nätverken tar emot en av de 32 inspelade sekvenserna i tur och ordning. ``Rätt'' beskriver vad noden för den förväntade tonen gav på testfallet och ``Fel'' beskriver vad den andra gav på det testfallet. T.ex. Rätt 1 A4 är vad noden för A4 gav resultat på första fallet av den inspelade A4 tonen. Det önskade resultatet för Rätt 1 A4 är därför 1. \\
+Fel 1 A4 är vad noden för C4 gav för resultat för första fallet av den inspelade A4 tonen. Det önskade resultatet för Fel 1 A4 är alltså 0.\\
 
 
-För att testa att lägga in text \\\\\\x.
 
 \begin{centering}
-\resizebox{6in}{4in}{
+\resizebox{6in}{3.5in}{
 \begin{tabular}{ l | l | l| }
 \cline{2-3}
 & \multicolumn{2}{c|}{Rätt nod}\\ \hline
