@@ -1,15 +1,15 @@
 # Fdb version 3
-["bibtex mall"] 1457432187 "mall.aux" "mall.bbl" "mall" 1457432202
+["bibtex mall"] 1457433106 "mall.aux" "mall.bbl" "mall" 1457433113
   "/usr/local/texlive/2014/texmf-dist/bibtex/bib/gloss/sample.bib" 1136766823 2721 b88105703bd616b4f9867992219afb8a ""
   "/usr/local/texlive/2014/texmf-dist/bibtex/bst/biblatex/biblatex.bst" 1385332815 60786 783b2076eb5c8d32e0f82e43e496c1a3 ""
-  "mall-blx.bib" 1457432197 306 8cfcc7b3a8f5d11f3e9fad30c65abfdc ""
-  "mall.aux" 1457432200 6419 d560f73e4b453edb0b024aef6725af18 ""
+  "mall-blx.bib" 1457433108 306 8cfcc7b3a8f5d11f3e9fad30c65abfdc ""
+  "mall.aux" 1457433111 6510 b7fb91a5107b2a0420dcffb8da8e8f1e ""
   "mall.bcf" 0 -1 0 ""
   "reference.bib" 1454124709 2689 7d67c7a6c3c3a8d585b1258070d82c2f ""
   (generated)
   "mall.blg"
   "mall.bbl"
-["pdflatex"] 1457432195 "mall.tex" "mall.pdf" "mall" 1457432202
+["pdflatex"] 1457433107 "mall.tex" "mall.pdf" "mall" 1457433113
   "/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2014/texmf-dist/fonts/tfm/jknappen/ec/ecbx0900.tfm" 1136768653 3584 1a7de6c99457381c64abc1a7c545505f ""
@@ -268,17 +268,17 @@
   "Sigmoid.png" 1453818442 52339 c62402a2aa562532495f25ab4a1a2e81 ""
   "Sigmoidb.png" 1453818551 86644 7fc671695df3bc8933e40e04b30d033f ""
   "Sigmoidw.png" 1453818509 70577 4591ca0b3f617f20dccd23d6b83f6a70 ""
-  "mall-blx.bib" 1457432197 306 8cfcc7b3a8f5d11f3e9fad30c65abfdc ""
-  "mall.aux" 1457432200 6419 d560f73e4b453edb0b024aef6725af18 ""
-  "mall.bbl" 1457432187 5087 9d13150bffd52d0dbedb174683f203fe "bibtex mall"
-  "mall.run.xml" 1457432200 2523 cebcbf51b719f718e4878152180778be ""
-  "mall.tex" 1457432176 81639 20a1ace6164e37f6a1137f565648cb2b ""
-  "mall.toc" 1457432200 3441 0717c32704448cb8074cf076cdc80fc9 ""
+  "mall-blx.bib" 1457433108 306 8cfcc7b3a8f5d11f3e9fad30c65abfdc ""
+  "mall.aux" 1457433111 6510 b7fb91a5107b2a0420dcffb8da8e8f1e ""
+  "mall.bbl" 1457433107 5087 9d13150bffd52d0dbedb174683f203fe "bibtex mall"
+  "mall.run.xml" 1457433111 2523 cebcbf51b719f718e4878152180778be ""
+  "mall.tex" 1457433092 82735 3fbcd4323b9d6457a1648a53c12caeef ""
+  "mall.toc" 1457433111 3514 d5a51f327a5923b8c6ea692ec2f5b30a ""
   "niklas.pdf" 1446820973 77243 5bef0a577e4024f8ec30d0acb6205e85 ""
   (generated)
   "mall.pdf"
-  "mall.aux"
-  "mall-blx.bib"
   "mall.log"
-  "mall.run.xml"
+  "mall.aux"
   "mall.toc"
+  "mall.run.xml"
+  "mall-blx.bib"

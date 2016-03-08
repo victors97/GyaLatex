@@ -295,7 +295,7 @@ Vi ville minimera antalet faktorer nätverket måste handskas med. Vi normaliser
 
 Syftet med vår undersökning är att lära oss mer om hur NN fungerar och hur man kan anpassa dem för olika uppgifter. Vi vill också undersöka hur effektivt nätverket är eftersom att en av de stora begränsningarna med NN var att de krävde mycket processorkraft vilket gjorde att forskningen stannade upp ett tag runt 1970-talet tills det att man kunde tillverka datorer som kunde utföra fler processer per sekund än tidigare. Vi är också intresserade av hur bra vårt nätverk blir på att gissa rätt (samt hur liten vi kan få errorfunktionen att bli för alla noder), hur lång tid det tar för det att lära sig och vad det har för begränsningar.
 
-\break
+% \break
 \subsection{Frågeställningar}
 \begin{enumerate}
 \item Hur kan man anpassa ett neuralt nätverk för att känna igen toner?
@@ -322,8 +322,8 @@ Nätverket består av en lagerstruktur. Lagren samlas i något som kallas ett la
 Koden består av ett klusterobjekt som innehåller en indatalista (som beskrivet tidigare) och en lista av lager. Varje lager innehåller ett antal noder som innehåller (som beskrivet tidigare) alla vikter till det tidigare lagret.
 
 \subsection{Nätverken}
-Enligt teorin kommer antalet beräkningar förhålla sig kvadratiskt gentemot antalet noder i de olika lagren. Ljudet har spelats in med en frekvens 44000 Hz. Eftersom varje inläst värde ska representeras av en indatanod innebär det att antalet beräkningar förhåller sig kvadratiskt i förhållande till den inspelade tiden. Nätverket hinner inte bearbeta värdena från en sekunds inspelning på en sekund om alla värden beräknas som ett intervall. Istället styckas de inspelade värdena för en sekund upp i 32 mindre intervall vilka kommer bestå av: \\
-	$\dfrac{44000}{32} = 1375$ värden \\
+Enligt teorin kommer antalet beräkningar förhålla sig kvadratiskt gentemot antalet noder i de olika lagren. Ljudet har spelats in med en frekvens 44000 Hz. Eftersom varje inläst värde ska representeras av en indatanod innebär det att antalet beräkningar förhåller sig kvadratiskt i förhållande till den inspelade tiden. Nätverket hinner inte bearbeta värdena från en sekunds inspelning på en sekund om alla värden beräknas som ett intervall. Istället styckas de inspelade värdena för en sekund upp i 32 mindre intervall av längd: \\
+	\[\dfrac{44000}{32} = 1375\]  \\
 Även om nätverket kommer att behöva bearbeta 32 intervall av denna längd per sekund så kommer det gå snabbare att arbeta igenom de 32 mindre segmenten. Detta då antalet beräkningar var kvadratiskt proportionel mot antalet värdeni intervallet, alltså kommer $\frac{1}{32}$ antalet värden beräknas på $(\frac{1}{32})^2$ av tiden vilket i sin tur innebär att det går 32 gånger så snabbt om man delar upp det i än mindre segment. Så en legitim följdfråga är varför vi inte drar ner lägden av segmenten till ett. Detta är på grund av att med färre beräkningar tillkommer att lite data inte räknas med. Så i detta fall innebär det att vi inte riktigt kan beräkna toner av lägre frekvens då vi inte hinner mäta upp ens en halv period. 
 BP valdes som inlärningsalgoritm för alla nätverk eftersom att den är relativt enkel och fungerade tillräckligt bra för upplärning av AND och XOR nätverken. Inlärningen kan bromsas om vi hamnar i ett lokalt minimum\autocite{NNDL} men det är en risk som är svår att undvika oberoende av val av inlärningsalgoritm.
 Den algoritm som kommer användas för BP är beskriven i pseudokod i bilaga \ref{Pseudo}. tonera dock att den bara är beskriven för nätverken med 3 lager. Vi bygger upp nätverket och sparar det så att det går att återskapa ifrån det vi hade tidigare. 
@@ -571,6 +571,9 @@ Fel 1 A4 är vad noden för C4 gav för resultat för första fallet av den insp
 
 \end{centering}
 
+
+\subsubsection{Nätverk 5}
+Följande nätverk beskriver utdatan som noden för den förväntade tonen gav på det specifika fallet av den inspelade tonen.
 
 \begin{centering}
 
