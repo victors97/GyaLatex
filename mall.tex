@@ -137,7 +137,7 @@ Det är vida känt att datorer är väldigt användbara inom ett flertal område
 
 \subsection{Teori}
 
-Som det tidigare nämnts ligger grunden för NN i att efterlikna hjärnans uppbyggnad och funktion. Genom att kombinera det med annan viktig teori för ljudigenkänning och tidskomplexitet bör man kunna konstruera ett NN som kan tränas till att känna igen toner.
+Som det tidigare nämnts ligger grunden för NN i att efterlikna hjärnans uppbyggnad och funktion. Det gör man genom att göra en så kallad körning eller frammåtpropagering. Genom att kombinera det med annan viktig teori för ljudigenkänning och tidskomplexitet bör man kunna konstruera ett NN som kan tränas till att känna igen toner. 
 
 \subsubsection{Neuroner}
 Det mest grundläggande med hjärnan är dess neuroner. Neuronerna i hjärnan fungerar genom att de tar emot elektriska signaler ifrån receptorer eller andra neuroner för att i sin tur avfyra elektriska impulser vidare till andra neuroner. Detta är det som gör det möjligt för oss att tänka och det finns några olika modeller för att simulera hjärnas neuroner. De olika modellerna som vi kommer ta upp bygger till stor del på tröskel-logik, det binära system som McCulloch och Pitts arbetade med. Kortfattat bygger tröskellogiken på att man har en neuron som representeras av en nod i en graf får indata $ \{ x_1,x_2,x_3...x_n \} $ som man summerar och jämför med ett tröskel-värde
@@ -319,9 +319,9 @@ Nätverket består av en lagerstruktur. Lagren samlas i något som kallas ett la
 Koden består av ett klusterobjekt som innehåller en indatalista (som beskrivet tidigare) och en lista av lager. Varje lager innehåller ett antal noder som innehåller (som beskrivet tidigare) alla vikter till det tidigare lagret.
 
 \subsection{Nätverken}
-Enligt teorin kommer antalet beräkningar förhålla sig kvadratiskt gentemot antalet noder i de olika lagren. Ljudet har spelats in med en frekvens 44000 Hz. Eftersom varje inläst värde ska representeras av en indatanod innebär det att antalet beräkningar förhåller sig kvadratiskt i förhållande till den inspelade tiden. Nätverket hinner inte bearbeta värdena från en sekunds inspelning på en sekund om alla värden beräknas som ett intervall. Istället styckas de inspelade värdena för en sekund upp i 32 mindre intervall av längd: \\
+Enligt teorin kommer antalet beräkningar förhålla sig kvadratiskt gentemot antalet noder i de olika lagren. Ljudet har spelats in med en inspelningsfrekvens på 44000 Hz. Eftersom varje inläst värde ska representeras av en indatanod innebär det att antalet beräkningar förhåller sig kvadratiskt i förhållande till den inspelade tiden. Nätverket hinner inte bearbeta värdena från en sekunds inspelning på en sekund om alla värden beräknas som ett intervall. Istället styckas de inspelade värdena för en sekund upp i 32 mindre intervall av längd: \\
 	\[\dfrac{44000}{32} = 1375\]  \\
-Även om nätverket kommer att behöva bearbeta 32 intervall av denna längd per sekund så kommer det gå snabbare att arbeta igenom de 32 mindre segmenten. Detta då antalet beräkningar var kvadratiskt proportionel mot antalet värdeni intervallet, alltså kommer $\frac{1}{32}$ antalet värden beräknas på $(\frac{1}{32})^2$ av tiden vilket i sin tur innebär att det går 32 gånger så snabbt om man delar upp det i än mindre segment. Så en legitim följdfråga är varför vi inte drar ner lägden av segmenten till ett. Detta är på grund av att med färre beräkningar tillkommer att lite data inte räknas med. Så i detta fall innebär det att vi inte riktigt kan beräkna toner av lägre frekvens då vi inte hinner mäta upp ens en halv period. 
+Även om nätverket kommer att behöva bearbeta 32 intervall av denna längd per sekund så kommer det gå snabbare att arbeta igenom de 32 mindre segmenten. Detta då antalet beräkningar var kvadratiskt proportionel mot antalet värden i intervallet, alltså kommer $\frac{1}{32}$ antalet värden beräknas på $(\frac{1}{32})^2$ av tiden vilket i sin tur innebär att det går 32 gånger så snabbt om man delar upp det i än mindre segment. Så en legitim följdfråga är varför vi inte drar ner lägden av segmenten till ett. Detta är på grund av att med färre beräkningar tillkommer att lite data inte räknas med. Så i detta fall innebär det att vi inte riktigt kan beräkna toner av lägre frekvens då vi inte hinner mäta upp ens en halv period. 
 BP valdes som inlärningsalgoritm för alla nätverk eftersom att den är relativt enkel och fungerade tillräckligt bra för upplärning av AND och XOR nätverken. Inlärningen kan bromsas om vi hamnar i ett lokalt minimum\autocite{NNDL} men det är en risk som är svår att undvika oberoende av val av inlärningsalgoritm.
 Den algoritm som kommer användas för BP är beskriven i pseudokod i bilaga \ref{Pseudo}. tonera dock att den bara är beskriven för nätverken med 3 lager. Vi bygger upp nätverket och sparar det så att det går att återskapa ifrån det vi hade tidigare. 
 
@@ -830,7 +830,7 @@ Grafen illustrerar hur felet förhåller sig till antal körningar av BP från t
 
 % Vilka slutsatser kan dras av resultaten, med dess begränsningar, och med hänvisning till tidigare redovisad forskning eller faktalitteratur? Under Slutsatser besvaras samtliga frågeställningar, klart och tydligt, och de ska vara enkla att finna. Om du skrivit en hypotes ska du koppla tillbaka till den i detta avsnitt. Slutsatsen ska vara kärnfull och kortfattad.
 \subsubsection{Nätverk 1-3}
-Nätverk 1-3 gav mycket dåliga resultat. De var slumpartade och det var omöjligt att dra några andra slutsatser än att ingen av nätverken hade möjlighet att särskilja mellan de olika 87 och 2 tonerna resp. Eftersom att det inte fungerade oberoende av antalet utdatanoder verkar det sannolikt att man behöver ett mycket större antal dolda noder för att det ska vara möjligt att känna igen toner. Då det verkade mer gynnsamt att pröva flera lager gjorde vi det och anpassade koden eftersom att det var osäkert om det överhuvudtaget gick och hur många noder man skulle behöva om man endast hade ett dolt lager.
+Nätverk 1-3 gav mycket dåliga resultat. De var slumpartade och det var omöjligt att dra några andra slutsatser än att inget av nätverken hade möjlighet att särskilja mellan de olika 87 respektive 2 tonerna. Eftersom att det inte fungerade oberoende av antalet utdatanoder verkar det sannolikt att man behöver ett mycket större antal dolda noder för att det ska vara möjligt att känna igen toner. Då det verkade mer gynnsamt att pröva flera lager gjorde vi det och anpassade koden eftersom att det var osäkert om det överhuvudtaget gick och hur många noder man skulle behöva om man endast hade ett dolt lager.
 \subsubsection{Nätverk 4}
 
 
@@ -852,7 +852,6 @@ Nätverk 1-3 gav mycket dåliga resultat. De var slumpartade och det var omöjli
 \end{center}
 
 \paragraph{Inlärning}\hspace{0pt}\\
-
 I grafen från resultaten kan man kan tydligt se att felet minskar drastiskt i början och sedan planar ut och stabiliserar sig på ett värde mycket nära noll. Detta är det den bör göra då felet bör vara stort i början och sedan minska när den lär sig. Att den stabiliserat sig innebär med stor sannolikhet att den har hamnat i ett lokalt minimum för errorfunktionen som mycket väl kan vara det globala då den är mycket nära noll. 
 
 
