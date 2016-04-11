@@ -174,8 +174,8 @@ Om vi nu istället föreställer oss ett neuron som endast tar emot en indata oc
 % \includegraphics[width=0.5\textwidth]{Sigmoidw}
 % \rule{.6pt}{5.7cm}%
 % \includegraphics[width=0.5\textwidth]{Sigmoidb}
-\fbox{\includegraphics[width=0.5\textwidth]{Sigmoidw}}
-\fbox{\includegraphics[width=0.5\textwidth]{Sigmoidb}}
+\includegraphics[width=0.5\textwidth]{Sigmoidw}
+\includegraphics[width=0.5\textwidth]{Sigmoidb}
 \end{figure}
 
 
@@ -248,7 +248,7 @@ När det kommer till antalet noder i varje lager finns det några som har förs�
 \end{scope}
 \end{tikzpicture}
 \end{figure}
-Eftersom att det är så svårt att välja antalet noder kan man dock använda sig av vissa tumregler för att påbörja testerna och sedan optimera vid behov. T.ex. kan man använda en tumregel som säger att antalet noder i det dolda lagret ska vara medelvärdet på indatalagret och utdatalagret \autocite{StackExchange} och anpassa därefter när det behövs enligt \ref{FAQ}.
+Eftersom att det är så svårt att välja antalet noder kan man dock använda sig av vissa tumregler för att påbörja testerna och sedan optimera vid behov. T.ex. kan man använda en tumregel som säger att antalet noder i det dolda lagret ska vara medelvärdet på indatalagret och utdatalagret \autocite{StackExchange} och anpassa därefter när det behövs enligt bilga \ref{FAQ}.
 
 Både AND och XOR har väl definierad indata. Vårt ljudproblem blir mer abstrakt och mindre väldefinierat indata, men precis som i fallet med de logiska kretsarna så har vi utdata som ska ges av heltal 1 eller 0. För att jämföra logiska kretsar och vårt problem så använder de logska kretsarna väldigt klara diskreta indata i de olika fallen: $\{0,0\}$, $\{1,0\}$, $\{0,1\}$, $\{1,1\}$. Vårt fall har en betydligt mer mjuk, kontinuerlig kurva. Dessutom så ska nätverket inte bara känna igen någon form av lutning (som AND och XOR kan föreklas till), vårt ska känna av en periodtid, eller frekvens. 
 
@@ -263,8 +263,8 @@ I projektet är vi främst intresserade av ljudens frekvens eftersom man inom mu
 
 Eftersom att pianot som ett musikinstrument är byggt så att det låter annorlunda jämfört med en t.ex. stämgaffel vars ljudvåg är mer snarlik en perfekt sinusvåg innebär det att vår genererade data kommer att skilja sig ifrån den inspelade. Detta kan bättre illustreras med de två graferna nedan som föreställer den genererade tonen och den inspelade tonen av A4 440Hz. 
 \begin{figure}[ht]
-\fbox{\includegraphics[width=0.5\textwidth]{A4gen}}
-\fbox{\includegraphics[width=0.5\textwidth]{A4p}}
+\includegraphics[width=0.5\textwidth]{A4gen}
+\includegraphics[width=0.5\textwidth]{A4p}
 \end{figure}
 
 Inlärningsdata är inspelad i ett tyst rum med minimalt med bakgrundsbrus på ett piano. 
