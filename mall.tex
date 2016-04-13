@@ -295,7 +295,7 @@ Vi ville minimera antalet faktorer nätverket måste handskas med. Vi normaliser
 Syftet med vår undersökning är att lära oss mer om hur NN fungerar och hur man kan anpassa dem för olika uppgifter. Vi vill också undersöka hur effektivt nätverket är eftersom att en av de stora begränsningarna med NN var att de krävde mycket processorkraft vilket gjorde att forskningen stannade upp ett tag runt 1970-talet tills det att man kunde tillverka datorer som kunde utföra fler processer per sekund än tidigare. Vi är också intresserade av hur bra vårt nätverk blir på att gissa rätt (samt hur liten vi kan få errorfunktionen att bli för alla noder), hur lång tid det tar för det att lära sig och vad det har för begränsningar.
 
 % \break
-\subsection{Frågeställningar}
+Under arbetet är vi intresserade att undersöka följande frågeställningar.
 \begin{enumerate}
 \item Hur kan man anpassa ett neuralt nätverk för att känna igen toner?
 \item Hur träffsäkert blir nätverket?
@@ -306,6 +306,7 @@ Syftet med vår undersökning är att lära oss mer om hur NN fungerar och hur m
 Från början var arbetet tänkt att omfatta röstigenkänning men vi gjorde därefter om det till ljudigenkänning. Då det kändes för brett och ospecificerat gjorde vi det till ton-igenkänning. Inom ton-igenkänning vill vi inkludera tonerna för främst piano och hur nätverkets påverkas av att pianots ljudvåg har andra vågor som är superpositionerade på tonen. \\
 På grund av tidsbrist har vi behövt strukturera om och testa ett nätverk som bara undersöker om den kan lära sig att se skillnad på A4 och C4 när det består av 3 lager och 4 lager och ett nätverk som undersöker om den kan särskilja 12 toner (C4-B4).
 
+\break
 \section{METOD}	
 
 \subsection{Förklaring av Nätverket}
